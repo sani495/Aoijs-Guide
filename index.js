@@ -13,6 +13,9 @@ nonPrefixed: false
 //Events for commands below
 bot.onMessage()
 
+const loader = new aoijs.LoadCommands(bot)
+loader.load(bot.cmd,"./commands/") /* When creating commands, you'll want to keep them organize. So This is a command handler.*/
+
 // This is for your bot's activity status, will display with it is online
 bot.status({
   text: "TEXT",
