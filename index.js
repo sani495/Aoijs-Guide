@@ -13,15 +13,16 @@ nonPrefixed: false
 //Events for commands below
 bot.onMessage()
 
-const loader = new aoijs.LoadCommands(bot)
-loader.load(bot.cmd,"./commands/") /* When creating commands, you'll want to keep them organize. So This is a command handler.*/
-
 const express = require('express')
 const app = express()
+const port = 3000
 
-// respond with "hello world" when a GET request is made to the homepage
 app.get('/', (req, res) => {
-  res.send('hello world')
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
 })
 
 /* When using replit, you need a 24/7 hosting service.*/
