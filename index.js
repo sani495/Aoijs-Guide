@@ -16,6 +16,16 @@ bot.onMessage()
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./commands/") /* When creating commands, you'll want to keep them organize. So This is a command handler.*/
 
+const express = require('express')
+const app = express()
+
+// respond with "hello world" when a GET request is made to the homepage
+app.get('/', (req, res) => {
+  res.send('hello world')
+})
+
+/* When using replit, you need a 24/7 hosting service.*/
+
 // This is for your bot's activity status, will display with it is online
 bot.status({
   text: "TEXT",
