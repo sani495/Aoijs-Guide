@@ -23,7 +23,7 @@ To replicate this code, click on the green button the says "Code", choose the HT
 3. Click on the button that says, "Import from Github" and paste the link to import it.
 4. Run your replit.
   - Go back to your application and click on "Reset Token" and copy your token. (Do not share your with anyone. If you do, that person might do harmful things to your and your server.)
-  - On your Replit, click on the Lock icon and make a secret naming it "SECRET". Then paste your token below.
+  - On your Replit, click on the Lock icon and make a secret naming the key "SECRET". Then paste your token in the value.
 
 ### Hosting Platform - [Uptime Robot](https://uptimerobot.com/)
 0. Go to the website above, and sign in to your account.
