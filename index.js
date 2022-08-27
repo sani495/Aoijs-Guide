@@ -4,7 +4,7 @@ const aoijs = require("aoi.js")
 
 const bot = new aoijs.Bot({ // 
 token: process.env.TOKEN,
-prefix: "$getServerVar[prefix]",
+prefix: "!", //Your prefix here
 intents: "all",
 mobilePlatform: false, //If true, your bot will show mobile when online
 nonPrefixed: false
