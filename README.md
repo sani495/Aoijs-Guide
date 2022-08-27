@@ -21,7 +21,8 @@ To replicate this code, click on the green button the says "Code", choose the HT
 1. Create a account if you haven't
 2. Once you're signed in, click on the button that says "Create".
 3. Click on the button that says, "Import from Github" and paste the link to import it.
-4. Run your replit.
+4. On the side on the console, select index.js to comfirm your entry point and click done.
+5. Run your replit.
   - Go back to your application and click on "Reset Token" and copy your token. (Do not share your with anyone. If you do, that person might do harmful things to your and your server.)
   - On your Replit, click on the Lock icon and make a secret naming the key "SECRET". Then paste your token in the value.
 
