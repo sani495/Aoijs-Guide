@@ -7,8 +7,9 @@ To replicate this code, click on the green button the says "Code", choose the HT
 0. Sign in to your discord account.
 1. Click on "New Application" and name your application.
 2. Click on Bot and Add Bot. 
-3. Set up your application to your liking.
-4. Invite your bot to your server:
+3. Scroll down to Privileged Gateway Intents and enable all intents
+4. Set up your application to your liking.
+5. Invite your bot to your server:
   - Click on OAuth2
   - Click on URL Generator
   - Under scopes, select "bot" and "applications.commands"
